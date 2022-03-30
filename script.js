@@ -28,10 +28,11 @@ async function searchResults() {
 
 function feelingLucky() {
   fetch("http://localhost:3000/article/random")
-    .then((res) => res.text())
+    .then((res) => res.json())
     .then((data) => {
-      const { URL } = data;
-      document.getElementById("output").textContent = URL;
+      const { ID, URL } = data;
+
+      window.location.href = URL;
     })
     .catch((err) => console.log(err));
 }
