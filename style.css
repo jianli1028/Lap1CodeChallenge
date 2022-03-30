@@ -81,3 +81,46 @@ footer .nav-link:hover,
   color: #70757a;
   text-decoration: underline;
 }
+
+#logoSearch {
+  height: 35px;
+  margin: 15px;
+  margin-top: 25px;
+}
+
+#searchbarSearch {
+  border: 1px solid #dfe1e5;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  background-image: url(/magnifying-glass-solid.svg);
+  background-size: 15px;
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  text-indent: 25px;
+}
+
+#blankSection {
+  padding:49px;
+  /*background-color: #000000;*/
+}
+
+.searchResult {
+  width: 600px;
+}
+
+hr {
+  border-top: 1px solid rgb(146, 146, 146);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+#communication {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Futura, Lato, Roboto, sans-serif;
+  color:rgb(138, 138, 138)
+}
