@@ -19,7 +19,8 @@ First code challenge assignment from Jianli Lin & Prishal Makwana for Futureproo
 
 ## Usage
 
-- An API that results search results in a google like front end
+- A basic search engine that fetches a locally made API with some articles and displays these when the "Boogle Search" button is clicked. When the "I'm feeling lukcy button is clikced, a random article is directed to.
+- Our frontend is created to look as similar to google as possible. 
 
 # Bugs
 
