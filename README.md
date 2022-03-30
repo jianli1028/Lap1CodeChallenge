@@ -16,7 +16,6 @@ First code challenge assignment from Jianli Lin & Prishal Makwana for Futureproo
   - superjest
   - express
   - cors
--
 
 ## Usage
 
@@ -24,7 +23,6 @@ First code challenge assignment from Jianli Lin & Prishal Makwana for Futureproo
 
 # Bugs
 
-- [ ] I'm feeling lukcy button not working, but random fucntion works
 - [ ] Search results display on homepage rather than search page
 
 # Wins & Challenges
