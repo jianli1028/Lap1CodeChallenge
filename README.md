@@ -10,7 +10,7 @@ First code challenge assignment from Jianli Lin & Prishal Makwana for Futureproo
 
 ## Installation
 
-- install all dependencies
+- Install all dependencies
   - npm
   - nodemon
   - superjest
@@ -25,6 +25,8 @@ First code challenge assignment from Jianli Lin & Prishal Makwana for Futureproo
 # Bugs
 
 - [ ] Search results display on homepage rather than search page
+- [ ] Search results are not ranked by relevance to search term 
+- [ ] Input field is not linked to the API
 
 # Wins & Challenges
 
@@ -36,7 +38,7 @@ First code challenge assignment from Jianli Lin & Prishal Makwana for Futureproo
   - Specific ID routing
   - Error handling - inclduing negative number as IDs
 - Created a frontend homepage that looks simialr to google
-- Able to fetch the API and display content (although not in the best way or pon the right page)
+- Able to fetch the API and display content (although not in the best way or on the right page)
 
 ## Chalenges
 
