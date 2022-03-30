@@ -1,0 +1,126 @@
+/* Univesal */
+body {
+  background-color: #ffffff;
+  color: #202124;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+header .nav-link {
+  color: #202124;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #202124;
+  text-decoration: underline;
+}
+
+#homepage-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#homepage-items {
+  max-height: 450px;
+  max-width: 700px;
+  padding-bottom: 15em;
+  margin: auto;
+}
+
+#homepage-items i {
+  color: #000000;
+}
+
+#homepage-items button {
+  background-color: #f8f9fa;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+}
+
+#homepage-items button:hover {
+  border: 1px solid #9fa2a5;
+}
+
+#logo {
+  max-width: 60%;
+}
+
+#searchbar {
+  border: 1px solid #dfe1e5;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-image: url(/magnifying-glass-solid.svg);
+  background-size: 15px;
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  text-indent: 25px;
+}
+
+#searchbar:hover,
+#searchbar:focus,
+#searchbar:active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+footer {
+  background-color: #f2f2f2;
+}
+
+footer .nav-link {
+  color: #70757a;
+}
+
+footer .nav-link:hover,
+.nav-link:focus {
+  color: #70757a;
+  text-decoration: underline;
+}
+
+#logoSearch {
+  height: 35px;
+  margin: 15px;
+  margin-top: 25px;
+}
+
+#searchbarSearch {
+  border: 1px solid #dfe1e5;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  background-image: url(/magnifying-glass-solid.svg);
+  background-size: 15px;
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  text-indent: 25px;
+}
+
+#blankSection {
+  padding:49px;
+  /*background-color: #000000;*/
+}
+
+.searchResult {
+  width: 600px;
+}
+
+hr {
+  border-top: 1px solid rgb(146, 146, 146);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+#communication {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Futura, Lato, Roboto, sans-serif;
+  color:rgb(138, 138, 138)
+}
