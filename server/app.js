@@ -1,9 +1,10 @@
-const express = require('../express');
+const express = require('express');
 const res = require("express/lib/response");
 const app = express();
-const cors = require('../cors');
-const article = require(".article"); //call the data.js
+const cors = require('cors');
+const article = require("./data.js"); //call the data.js
 app.use(cors());
+app.use(express.json())
 
 //random article function
 const getRandomArticle = () => {

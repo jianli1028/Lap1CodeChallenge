@@ -8,7 +8,7 @@
 // Article: the actual article without format
 // ArtDate: date of the article in ddmmyy
 
-articles = [
+const article = [
     {ID: 1, URL: "https://decrypt.co/96321/web-browser-opera-adds-suport-bitcoin-polygon-solana",
     Author: "Andrew Asmakov",
     Title: "Web Browser Opera Adds Support for Bitcoin, Polygon, Solana",
@@ -32,7 +32,7 @@ articles = [
     Title: "A New Service Matches Travelers With Savvy Locals In Italy",
     Subtitle: "",
     Article: "It is always more helpful to have a friend in a destination to point out the hidden gems that only locals know and the overrated places to avoid. For those who don’t already have friends in Italy, the just launched travel service XpatPal provides links to knowledgeable British, Irish and American expat locals spread out around the country and who specialize in different interests. <br>“The pandemic taught us many things and one of them is that freedom to travel is not something we should take for granted. Maybe it is wanderlust, the desire to experience a different culture or just to meet new people but whatever the reason, travel is part of what makes us human,” explains Joel Reidy, CEO of XpatPaI. “Now that the world is opening up again our desire to travel has awakened but with so many things changed over the last two years, trusting recommendations from an old blog post or a travel book can result in a disappointing trip. All of our itineraries are created at the time of the request based on the travelers’ interests and the absolute freshest information.” <br>The team of 50 covers 20 Italian regions including the major cities and countryside, from Lazio and Basilicata to the Veneto, Sicily and Tuscany. The expats offer suggestions for families, couples or solo travelers on gastronomy, culture, adventure travel, off the beaten path events, art, history, nightlife, wellness experiences or other interests. Travelers can select their advisors based on their bios which include the number of years in residence in Italy, the regions he or she knows best, the languages spoken (usually French and Spanish apart from English and Italian) and specialties." ,
-    ArtDate: 300322},
+    ArtDate: 300322}/*,
     {ID: 5, URL: "", Author: "", Title: "", Subtitle: "", Article: "" , ArtDate:},
     {ID: 6, URL: "", Author: "", Title: "", Subtitle: "", Article: "" , ArtDate:},
     {ID: 7, URL: "", Author: "", Title: "", Subtitle: "", Article: "" , ArtDate:},
@@ -48,7 +48,7 @@ articles = [
     {ID: 17, URL: "", Author: "", Title: "", Subtitle: "", Article: "" , ArtDate:},
     {ID: 18, URL: "", Author: "", Title: "", Subtitle: "", Article: "" , ArtDate:},
     {ID: 19, URL: "", Author: "", Title: "", Subtitle: "", Article: "" , ArtDate:},
-    {ID: 20, URL: "", Author: "", Title: "", Subtitle: "", Article: "" , ArtDate:}
-]
+    {ID: 20, URL: "", Author: "", Title: "", Subtitle: "", Article: "" , ArtDate:}*/
+];
 
-modole.exports = article; //make the object available to everyone
+module.exports = article; //make the object available to everyone
