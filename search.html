@@ -12,42 +12,54 @@
     />
     <script
       src="https://kit.fontawesome.com/08011ee24d.js"
-      crossorigin="anonymous" defer
+      crossorigin="anonymous"
+      defer
     ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Boogle</title>
-    <link rel="icon" type="image/x-icon" href="/B.png" />
+    <link rel="icon" type="image/x-icon" href="B.png" />
   </head>
 
   <body>
     <!-- Top search bar -->
-    <header class="navbar fixed-top navbar-expand-sm" style="border-bottom-style: solid; border-color: rgb(228, 228, 228); border-width: 1px;">
-      <div class="container-fluid"  style="min-width: 600px;">
+    <header
+      class="navbar fixed-top navbar-expand-sm"
+      style="
+        border-bottom-style: solid;
+        border-color: rgb(228, 228, 228);
+        border-width: 1px;
+      "
+    >
+      <div class="container-fluid" style="min-width: 600px">
         <!--<div class="" id="navbarCollapse" >-->
-          <ul class="navbar-nav">
-            <li class="">
-                <a href="index.html"><img src="Boogle.png" alt="Boogle logo" id="logoSearch"/></a>
-            </li>
-            <li class="" style="min-width: 700px">
-                <input type="text" class="form-control" id="searchbarSearch"/>
-            </li>
-          </ul>
+        <ul class="navbar-nav">
+          <li class="">
+            <a href="index.html"
+              ><img src="Boogle.png" alt="Boogle logo" id="logoSearch"
+            /></a>
+          </li>
+          <li class="" style="min-width: 700px">
+            <input type="text" class="form-control" id="searchbarSearch" />
+          </li>
+        </ul>
         <!--</div>-->
       </div>
     </header>
     <!-- Search results -->
-    <div id="blankSection"><!--to cover the white space created by the top--></div>
-    <div class="container" style="width: 1200px">
-        <div>
-            <p id="communication">There are 0 search results from your research</p>
-        </div>
-        <div class="searchResult">
-            <h6 id="resultURL1">URL placeholder</h6>
-            <h4 id="title1">Placeholder Title 1</h4>
-            <p id="result1">placeholder article1</p>
-        </div>
+    <div id="blankSection">
+      <!--to cover the white space created by the top-->
     </div>
-
+    <div class="container" style="width: 1200px">
+      <div>
+        <p id="communication">There are 0 search results from your research</p>
+      </div>
+      <div class="searchResult">
+        <h6 id="resultURL1">URL placeholder</h6>
+        <h4 id="title1">Placeholder Title 1</h4>
+        <p id="result1">placeholder article1</p>
+      </div>
+    </div>
+    <div id="output1"></div>
 
     <!-- Footer -->
     <footer class="navbar fixed-bottom navbar-expand-sm">

@@ -30,20 +30,6 @@ header .nav-link {
   margin: auto;
 }
 
-#homepage-items i {
-  color: #000000;
-}
-
-#homepage-items button {
-  background-color: #f8f9fa;
-  color: #3c4043;
-  font-family: arial, sans-serif;
-}
-
-#homepage-items button:hover {
-  border: 1px solid #9fa2a5;
-}
-
 #logo {
   max-width: 60%;
 }
@@ -65,6 +51,23 @@ header .nav-link {
 #searchbar:hover,
 #searchbar:focus,
 #searchbar:active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+#homepage-items #feelingLuckyBtn,
+#homepage-items #searchBtn {
+  background-color: #f8f9fa;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #f8f9fa;
+}
+
+#homepage-items #feelingLuckyBtn:hover,
+#homepage-items #searchBtn:hover {
+  border: 1px solid #c8cacc;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 

@@ -22,7 +22,7 @@
 
   <body>
     <!-- Top navigation -->
-    <header class="navbar fixed-top navbar-expand-sm">
+    <header class="navbar fixed-top navbar-expand">
       <div class="container-fluid">
         <div class="" id="navbarCollapse">
           <ul class="navbar-nav">
@@ -53,20 +53,30 @@
         <div class="row justify-content-center">
           <img src="Boogle.png" alt="Boogle logo" id="logo" />
         </div>
+        <!-- <form action="/action_page.php"> -->
         <div class="row">
           <input type="text" class="form-control" id="searchbar" />
         </div>
 
         <div class="row justify-content-center d-flex">
           <div class="col d-flex justify-content-end">
-            <button class="btn btn-light" id="searchBtn">Boogle Search</button>
+            <input type="submit" value="Boogle Search" id="searchBtn" />
+
+            <!-- <button class="btn btn-light" id="searchBtn">Boogle Search</button> -->
           </div>
           <div class="col d-flex justify-content-start">
-            <button class="btn btn-light" id="feelingLuckyBtn">
+            <input
+              type="submit"
+              value="I'm Feeling Lucky"
+              id="feelingLuckyBtn"
+            />
+
+            <!-- <button class="btn btn-light" id="feelingLuckyBtn">
               I'm Feeling Lucky
-            </button>
+            </button> -->
           </div>
         </div>
+        <!-- </form> -->
       </div>
     </div>
     <div id="output"></div>

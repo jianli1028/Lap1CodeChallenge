@@ -1,14 +1,25 @@
-document.getElementById("searchBtn").addEventListener("click", searchResults);
+$(function () {
+  $("#searchBtn").click(function () {
+    searchResults();
+  });
+});
+
+document.getElementById("searchBtn").addEventListener("submit", searchResults);
 
 document
   .getElementById("feelingLuckyBtn")
-  .addEventListener("click", feelingLucky);
+  .addEventListener("submit", feelingLucky);
 
 async function searchResults() {
   try {
     const res = await fetch("http://localhost:3000/article")
       .then((res) => res.json())
       .then((data) => {
+        const { ID, URL } = data;
+
+        // window.location.href = "http://localhost:3000/article";
+        // window.location.href = "/search.html";
+
         let output = `<h1 class="display-1 m-3" style="text-align: center;">Search results</h1>`;
         data.forEach(function (article) {
           let x = article.Article;
@@ -24,7 +35,7 @@ async function searchResults() {
                             </div>
                       `;
         });
-        document.getElementById("output").innerHTML = output + `<br>`;
+        document.getElementById("output1").innerHTML = output + `<br>`;
       });
   } catch (err) {
     console.log(`ERROR: ${err}`);
